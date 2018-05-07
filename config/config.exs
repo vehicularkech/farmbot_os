@@ -51,6 +51,7 @@ config :farmbot, :farmware,
 
 config :farmbot,
   expected_fw_versions: ["6.4.0.F", "6.4.0.R", "6.4.0.G"],
+  firmware_io_logs: false,
   default_server: "https://my.farm.bot"
 
 global_overlay_dir = "rootfs_overlay"
